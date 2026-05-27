@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="mx-auto max-w-3xl px-6 pt-24 pb-20 sm:pt-32 sm:pb-28">
+    <section className="mx-auto max-w-3xl px-6 pt-24 pb-8 sm:pt-32 sm:pb-10">
       <h1 className="text-3xl sm:text-4xl font-medium tracking-tight leading-[1.15]">
         My name is <span className="text-foreground">Nirmal Nayada</span>.
       </h1>
