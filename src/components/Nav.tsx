@@ -6,18 +6,19 @@ export function Nav() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur">
       <nav className="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-sm font-medium tracking-tight">
-          [YOUR NAME]
+          Nirmal Nayada
         </Link>
         <div className="flex items-center gap-1 text-sm text-muted">
-          <a href="#projects" className="px-3 py-1.5 hover:text-foreground transition-colors">
+          <Link href="/#projects" className="px-3 py-1.5 hover:text-foreground transition-colors">
             Projects
-          </a>
-          <a href="#contact" className="px-3 py-1.5 hover:text-foreground transition-colors">
+          </Link>
+          <Link href="/contact" className="px-3 py-1.5 hover:text-foreground transition-colors">
             Contact
-          </a>
+          </Link>
           <a
             href="/resume.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-3 py-1.5 hover:text-foreground transition-colors"
           >
             Resume
