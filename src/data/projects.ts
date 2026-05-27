@@ -172,6 +172,64 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    slug: "proposals",
+    title: "Proposals",
+    description:
+      "Generate polished client proposals with AI, share them as a web page, and collect a signature and payment — all in one flow.",
+    tech: ["Next.js", "Supabase", "Claude API", "Stripe", "Resend"],
+    year: "current",
+    sections: [
+      {
+        heading: "What it does",
+        paragraphs: [
+          "Proposals turns a one-sentence project description into a polished, 12-section client proposal — then handles the rest of the deal cycle in the same flow: shareable public link, e-signature, and full Stripe payment. The freelancer never has to leave the dashboard, and the client never has to create an account.",
+        ],
+      },
+      {
+        heading: "The flow",
+        bullets: [
+          { title: "Sign in", body: "Email + password auth via Supabase." },
+          {
+            title: "Generate",
+            body: "Describe the project in a sentence or two; Claude Opus 4.7 drafts a complete 12-section proposal.",
+          },
+          {
+            title: "Edit & send",
+            body: "Tweak any section, then share a public link with the client — no login required on their end.",
+          },
+          {
+            title: "Sign & pay",
+            body: "Client signs (typed or drawn) and pays the full amount via Stripe Checkout on the same page.",
+          },
+          {
+            title: "Stay in the loop",
+            body: "Email + dashboard updates at every step, with a celebratory animation once it's signed and paid.",
+          },
+        ],
+      },
+      {
+        heading: "Under the hood",
+        paragraphs: [
+          "Built on Next.js App Router. Supabase handles Postgres + Auth, with Row Level Security keeping each user's proposals private. Anthropic's Claude API does the AI drafting. Stripe Checkout + webhooks handle payment, with a Stripe-confirmation fallback on the return page so a missed webhook never blocks a deal closing. Resend sends transactional email. Deployed on Netlify.",
+        ],
+      },
+    ],
+    links: [
+      {
+        label: "Live app",
+        description: "Try the deployed app on Netlify.",
+        url: "https://businessprop-test-a06c.netlify.app",
+        icon: "netlify",
+      },
+      {
+        label: "Source code",
+        description: "Browse the GitHub repository.",
+        url: "https://github.com/NirmalKuttappa/business-proposal-platform",
+        icon: "github",
+      },
+    ],
+  },
 ];
 
 export function getProject(slug: string): Project | undefined {
