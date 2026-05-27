@@ -174,7 +174,7 @@ export const projects: Project[] = [
   },
   {
     slug: "proposals",
-    title: "Proposals",
+    title: "Business Proposals",
     description:
       "Generate polished client proposals with AI, share them as a web page, and collect a signature and payment — all in one flow.",
     tech: ["Next.js", "Supabase", "Claude API", "Stripe", "Resend"],
@@ -183,7 +183,7 @@ export const projects: Project[] = [
       {
         heading: "What it does",
         paragraphs: [
-          "Proposals turns a one-sentence project description into a polished, 12-section client proposal — then handles the rest of the deal cycle in the same flow: shareable public link, e-signature, and full Stripe payment. The freelancer never has to leave the dashboard, and the client never has to create an account.",
+          "Business Proposals turns a one-sentence project description into a polished, 12-section client proposal — then handles the rest of the deal cycle in the same flow: shareable public link, e-signature, and full Stripe payment. The freelancer never has to leave the dashboard, and the client never has to create an account.",
         ],
       },
       {
