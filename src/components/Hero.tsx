@@ -10,6 +10,42 @@ export function Hero() {
         currently at the University of Washington finishing my MS in Human Centered Design-Product
         Management.
       </p>
+
+      <div className="mt-10 flex items-center gap-x-8 sm:gap-x-10">
+        <a
+          href="https://www.washington.edu"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="University of Washington"
+          title="University of Washington"
+          className="opacity-80 hover:opacity-100 transition-opacity"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logos/uw.svg" alt="University of Washington" className="h-9 w-auto" />
+        </a>
+        <a
+          href="https://www.godaddy.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GoDaddy"
+          title="GoDaddy"
+          className="opacity-80 hover:opacity-100 transition-opacity"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logos/godaddy.svg" alt="GoDaddy" className="h-6 w-auto" />
+        </a>
+        <a
+          href="https://www.sap.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="SAP"
+          title="SAP"
+          className="opacity-80 hover:opacity-100 transition-opacity"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logos/sap.svg" alt="SAP" className="h-9 w-auto" />
+        </a>
+      </div>
     </section>
   );
 }
