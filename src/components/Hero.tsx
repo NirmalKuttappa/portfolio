@@ -21,7 +21,7 @@ export function Hero() {
           className="opacity-80 hover:opacity-100 transition-opacity"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logos/uw.svg" alt="University of Washington" className="h-9 w-auto" />
+          <img src="/logos/uw.svg" alt="University of Washington" className="h-12 sm:h-14 w-auto" />
         </a>
         <a
           href="https://www.godaddy.com"
