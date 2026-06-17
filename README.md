@@ -2,6 +2,7 @@
 
 Personal portfolio site for Nirmal Kuttappa. Built with Next.js + Tailwind, deployed on Netlify.
 
+**Live site:** [https://portfolio-nirmal33.vercel.app/](https://portfolio-nirmal33.vercel.app/)
 **Live site:** [aibuilderprojects.netlify.app](https://aibuilderprojects.netlify.app)
 
 ## Development
